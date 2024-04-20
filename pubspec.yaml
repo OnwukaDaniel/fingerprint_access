@@ -38,6 +38,9 @@ dependencies:
   biometric_storage: ^5.0.0
   local_auth: ^2.1.6
 
+dependency_overrides:
+    win32: ^5.5.4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
